@@ -69,3 +69,17 @@ let numbers = [1,3,6,8,32,690,2];
   
  }
 reverseArray(arrItems)
+
+// Create new array with reversed/flipped elements
+
+function flipArrayIndexes(arr){
+   console.log( "before" + arr)
+   let revArr = []
+   for(let i = arr.length,j = 0; i >= 0; i--,j++){
+      revArr[j] = arr[i]
+   }
+   console.log("after" + revArr)
+
+}
+
+flipArrayIndexes(arrItems)
