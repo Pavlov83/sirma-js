@@ -83,3 +83,12 @@ function flipArrayIndexes(arr){
 }
 
 flipArrayIndexes(arrItems)
+
+//built-in methods for arrays
+
+//push()
+//pop()
+//unshift()
+//shift()
+//includes()
+//indexOf()
